@@ -392,55 +392,53 @@
     
     <!-- End of Testimonial Section -->
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="contact-card">
-                <div class="infos">
-                    <h6 class="section-subtitle">Get in Touch</h6>
-                    <h6 class="section-title mb-4">Contact Us</h6>
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="contact-card">
+            <div class="infos">
+                <h6 class="section-subtitle">Get in Touch</h6>
+                <h6 class="section-title mb-4">Contact Us</h6>
 
-                    <div class="item">
-                        <i class="ti-location-pin"></i>
-                        <div class="">
-                            <h5>Location</h5>
-                            <p>4789 Yonge St, Unit 912, Toronto ON M2N 0G3</p>
-                        </div>                          
-                    </div>
-                    <div class="item">
-                        <i class="ti-mobile"></i>
-                        <div>
-                            <h5>Phone Number</h5>
-                            <p>+1 (416) 735-9177</p>
-                        </div>                          
-                    </div>
-                    <div class="item">
-                        <i class="ti-email"></i>
-                        <div class="mb-0">
-                            <h5>Email Address</h5>
-                            <p>gabriel.macovei@combinedagent.ca</p>
-                        </div>
-                    </div>
+                <div class="item">
+                    <i class="ti-location-pin"></i>
+                    <div class="">
+                        <h5>Location</h5>
+                        <p>4789 Yonge St, Unit 912, Toronto ON M2N 0G3</p>
+                    </div>                          
                 </div>
-                <div class="form">
-                    <h6 class="section-subtitle">Available 24/7</h6>
-                    <h6 class="section-title mb-4">Get In Touch</h6>
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="contact-message" id="" cols="30" rows="7" class="form-control form-control-lg" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block btn-lg mt-3">Send Message</button>
-                    </form>
+                <div class="item">
+                    <i class="ti-mobile"></i>
+                    <div>
+                        <h5>Phone Number</h5>
+                        <p>+1 (416) 735-9177</p>
+                    </div>                          
+                </div>
+                <div class="item">
+                    <i class="ti-email"></i>
+                    <div class="mb-0">
+                        <h5>Email Address</h5>
+                        <p>gabriel.macovei@combinedagent.ca</p>
+                    </div>
                 </div>
             </div>
+            <div class="button-section">
+                <h6 class="section-subtitle">Available 24/7</h6>
+                <h6 class="section-title mb-4">Get Your Quote</h6>
+                <a href="#" 
+                   class="btn btn-primary btn-block btn-lg mt-3" 
+                   onclick="Calendly.initPopupWidget({url: 'https://calendly.com/agentgabriel07/30min'});return false;">
+                   Get a Quote
+                </a>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- Include Calendly Script -->
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+
     <!-- Contact Section -->
 
     <section class="has-bg-img py-0">
